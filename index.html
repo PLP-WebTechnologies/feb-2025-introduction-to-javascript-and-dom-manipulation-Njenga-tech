@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript and DOM Manipulation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Welcome to My JavaScript Page</h1>
+  </header>
+
+  <nav>
+    <p>Click the buttons below to interact with the page!</p>
+  </nav>
+
+  <main>
+    <section>
+      <p id="message">This is a default message.</p>
+      <button onclick="changeText()">Change Text</button>
+      <button onclick="changeStyle()">Change Style</button>
+    </section>
+
+    <section>
+      <button onclick="addElement()">Add Element</button>
+      <button onclick="removeElement()">Remove Element</button>
+      <div id="container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ and JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
