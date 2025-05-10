@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🎯 JS Interactive Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎯 Welcome to the Interactive JS World</h1>
+    <button id="modeToggle">Toggle Light/Dark Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <button id="magicButton">Surprise Me!</button>
+      <p id="clickMessage">Click the button to reveal a secret message ✨</p>
+    </section>
+
+    <section>
+      <input type="text" id="keyInput" placeholder="Start typing..." />
+      <p id="keyOutput"></p>
+    </section>
+
+    <section class="tabs">
+      <div class="tab">
+        <button class="tab-btn" data-tab="1">About</button>
+        <button class="tab-btn" data-tab="2">Projects</button>
+      </div>
+      <div id="tab1" class="tab-content">Welcome to my JavaScript playground! 🧠</div>
+      <div id="tab2" class="tab-content hidden">Here are some fun DOM projects. 🛠️</div>
+    </section>
+
+    <section>
+      <form id="myForm">
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+        <button type="submit">Submit</button>
+        <p id="formMessage"></p>
+      </form>
+    </section>
+
+    <section>
+      <img
+        id="hoverImage"
+        src="https://images.pexels.com/photos/29814407/pexels-photo-29814407/free-photo-of-high-performance-motorcycles-in-dimly-lit-garage.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        alt="Magical forest"
+      />
+      <p>Double-click the image to unlock a secret!</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
